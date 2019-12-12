@@ -1,0 +1,379 @@
+html {
+font:normal 100%/1.2em "Trebuchet MS", Arial, sans-serif;
+text-align: center;
+margin: auto;
+color : #000000;
+}
+body{
+	background-color: #ecf0f1;
+	margin: auto;
+	text-align: center;
+}
+
+label {
+	font-weight: 900;
+	text-decoration: underline;
+}
+a, button{
+	text-decoration: none;
+	margin: auto;
+	text-align: center;
+	font:normal 100%/1.2em "Trebuchet MS", Arial, sans-serif;
+
+}
+textarea, table{
+	width: 100%;
+}
+
+input,select,textarea{
+	background-color: #ecf0f1;
+
+}
+
+/*Couleurs */
+.bg-vert{
+	background-color: #009E0F;
+}
+.bg-rouge{
+	background-color: #CF2A27;
+}
+.bg-orange{
+	background-color: #E66828;
+}
+.bg-bleu{
+	background-color: #2B78E4;
+}
+.bg-gris {
+	background-color: #585858;
+}
+.bg-vertPomme {
+	background-color: #BFD190;
+}
+.texte-vert{
+	color: #009E0F;
+}
+.texte-rouge{
+	color: #CF2A27;
+}
+.texte-orange{
+	color: #E66828;
+}
+.texte-vertPomme {
+	color: #BFD190;
+}
+.texte-blanc {
+	color: #ffffff;
+}
+.texte-gris {
+	color: #585858;
+}
+.texte-blanc{
+	color: #ffffff;
+}
+
+/*
+.erreur{ 
+   background-color:rgb(237,210,229);
+   color:rgb(203,28,128);
+   font-size:1.1em;
+   width:95%;
+}
+.message{ 
+   background-color:rgb(99, 184, 255);
+   color:rgb(0,0,205);
+   font-size:1.1em;
+   width:95%;
+}*/
+
+#bandeau {
+	vertical-align: middle;
+}
+
+#logo
+{
+	height: 60px;
+	width: 60px;
+	vertical-align: middle;
+} 
+
+
+.btn
+{
+	padding:10px;
+	margin: 5px;
+	border-radius: 10px;
+    border: 2px solid #ffffff;	
+	display: inline-block;
+}
+.btnTableau {
+ 	float: center;
+    border: 2px solid #585858;	
+}
+.btnHaut{
+	float: left;
+}
+
+.btnLine{
+	display: block;
+}
+
+#menu{
+	text-align: center;
+	background: #E66828;
+	margin-top: 2%;
+}
+
+#container{
+	margin-top:2%;
+	margin-bottom:2%;
+	display: inline-block;
+	text-align:center;
+}
+
+#container li{
+	list-style-type: none;
+	list-style-image:none;
+    text-align:center;
+    height:20px;
+    font: 1em "Trebuchet MS", Arial, sans-serif;
+}
+
+#container ul{
+	margin: auto;
+	text-align:center;
+	border-radius: 10px
+}
+
+.section {
+	background: #585858 ;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.section li {
+	background: #FFFFFF ;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+	
+}
+
+.section li a {
+	background: #e74c3c;
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+}
+
+#commentaire {
+	resize : none;
+	text-align: center;
+	vertical-align: middle;
+}
+h1 {
+	color: #BFD190;
+	padding:5px;
+	border: 2px solid #BFD190; 
+	line-height: 1;
+}
+h4{
+	color: #ffffff;
+	text-align: center;
+	text-decoration: underline;
+}
+h3 {
+	color: #E66828;
+	text-align: left;
+	text-decoration: underline;
+	line-height: 1;
+}
+
+
+table {
+  border-collapse: collapse; 
+  width: 100%;
+}
+.tablePrincipal{
+	border: 2px solid #ffffff;
+	border
+}
+
+.tableSecondaire{
+	background-color: #ecf0f1;
+	margin: auto;
+	border: 2px solid #ffffff;
+}
+th.tableSecondaire{
+	color: #ffffff;
+}
+
+th {
+	padding:10px;
+}
+td {
+  	padding: 20px;
+}
+
+tr {
+	background-color: #ecf0f1;
+	border: 2px solid #ffffff;
+}
+
+
+th {
+  background-color: #585858;
+  color: white;
+}
+td{
+  	text-align: center;
+}
+
+.invisible {
+	background-color: #585858;
+	color:white;
+	border:none;
+	border-style: none;
+}
+
+.formulaire {
+	background-color: #585858;
+}
+
+#menu li {
+	list-style-type: none;
+	list-style-image:none;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+}
+
+#menu li a , #recherches li a {
+	text-decoration:none;
+	color: white ; 
+}
+
+form.champConnexion {
+  position:fixed;
+  bottom:40%;
+  left:25%;
+  background: #bfd190;
+  color:white;
+  text-align: center;
+  width:50%;
+  height:35%;
+  border-radius: 10px;
+}
+
+form.champConnexion input, .sinscrire {
+	display: block;
+	width:90%;
+	height:20%;
+	margin-top: 4%;
+	margin-left:5%; 
+	border-style: none;
+	text-align: center;
+}
+
+form.champConnexion input[type="submit"] {
+	width: 90%;
+	background:#e66828;
+}
+
+form.champConnexion input[type="submit"]:hover {
+	background:#E37842;
+	cursor:pointer;
+}
+
+.sinscrire{
+	color:black;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+form.champInscription {
+  position:fixed;
+  top:20%;
+  left:25%;
+  background: #bfd190;
+  color:white;
+  width:50%;
+  height:70%;
+  border-radius: 10px;
+}
+
+form.champInscription input, .seConnecter {
+	display: block;
+	width:90%;
+	height:5%;
+	margin-top: 4%;
+	margin-left:5%; 
+	border-style: none;
+	text-align: center;
+}
+
+form.champInscription input[type="date"]::before{
+   content: attr(placeholder)"";
+   color:#6e7070;
+   white-space: pre;
+} 
+form.champInscription input[type="date"]:focus::before {
+   content:""!important;
+}
+
+form.champInscription input[type="submit"] {
+	width: 90%;
+	background:#e66828;
+}
+
+form.champInscription input[type="submit"]:hover {
+	background:#E37842;
+	cursor:pointer;
+}
+
+.inscription {
+
+  position:fixed;
+  bottom:40%;
+  left:27.5%;
+  /*text-align: center;*/
+  border-radius: 10px;
+  color:black;
+}
+
+.seConnecter{
+	color:black;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.user {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	color: white;
+	text-align: right;
+}
+.user a{
+	color: inherit;
+	text-decoration: none;
+	margin-top: 20px;
+}
+.user .metadata{
+	background: #E66828 ;
+	padding: 10px;
+	margin: 0;
+	display: inline-block;
+	border-radius: 10px;
+	border: 2px solid #585858;
+}
+
+.inscription {
+	position: absolute;
+	top: 4%;
+	right: 2%;
+	background: #4169E1 ;
+	padding: 10px;
+	border : 1px solid black;
+	color: white;
+	text-decoration: none;
+}

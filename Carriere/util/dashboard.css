@@ -1,0 +1,58 @@
+#accueil{
+	margin-top: 5%;
+}
+#bloc1VISITES{
+
+	border-width:10%;
+	background-color: #CC0033;	
+}
+
+#bloc2ENTRETIEN{
+
+	border-width:10%;
+	background-color: grey;
+}
+#bloc3{
+
+	border-width:10%;
+	background-color: #FFCC00;
+}
+#bloc4PASVISITEUR, #bloc4VISITEUR{
+
+	border-width:10%;
+	background-color: #FF6600;
+
+}
+#bloc5DELEGUE, #bloc5RESPONSABLE{
+	border-width:10%;
+	background-color: #009E0F;
+
+}
+#bloc6DECONNEXION{
+
+	border-width:10%;
+	background-color: #0066FF;
+}
+
+span{
+
+	color: white;
+	font-size: 80%;
+	border-radius: 20px;
+	padding: 3% 2% 3% 2%;
+	border:solid #585858;
+}
+
+a>span
+{
+	margin:2%;
+	text-decoration:none;
+	font-size: 500%;
+}
+
+.dashboard
+{
+    color : white;
+	display: inline-block;
+}
+
